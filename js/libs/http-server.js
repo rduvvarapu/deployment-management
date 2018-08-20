@@ -1,4 +1,4 @@
-/*var http = require("http");
+var http = require("http");
 
 http.createServer(function (request, response) {
     // Send the HTTP header 
@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
     
     // Send the response body as "Hello World"
     response.end('Hello World CICD pipeline\n');
- }).listen(9090);*/
+ }).listen(9090);
  
  // Console will print the message
- //console.log('Server running at http://127.0.0.1:9090/');
- console.log("Hello, Deployment Pipeline!")
+ console.log("Welcome to NodeJS")
+ console.log('Server running at http://127.0.0.1:9090/');

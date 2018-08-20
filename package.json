@@ -4,9 +4,9 @@
     "description": "Node application to create SFDX CLI pipeline",
     "main": "js/libs/http-server.js",
     "scripts": {
-      "start": "node js/libs/http-server.js"
+        "start": "node js/libs/http-server.js"
     },
     "engines": {
         "node": ">=8.4.0"
     }
-  }
+}
