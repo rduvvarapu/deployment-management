@@ -1,12 +1,26 @@
 {
-    "name": "deployment-pipeline",
-    "version": "0.0.1",
-    "description": "Node application to create SFDX CLI pipeline",
-    "main": "js/libs/http-server.js",
-    "scripts": {
-        "start": "node js/libs/http-server.js"
-    },
-    "engines": {
-        "node": ">=8.4.0"
-    }
+  "name": "deployment-pipeline",
+  "version": "0.0.1",
+  "description": "Node application to create SFDX CLI pipeline",
+  "main": "js/libs/http-server.js",
+  "scripts": {
+    "start": "node js/libs/http-server.js"
+  },
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "dependencies": {
+    "http": "0.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rduvvarapu/deployment-management.git"
+  },
+  "author": "Ramu Duvvarapu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rduvvarapu/deployment-management/issues"
+  },
+  "homepage": "https://github.com/rduvvarapu/deployment-management#readme"
 }
